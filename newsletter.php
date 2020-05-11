@@ -256,7 +256,7 @@
 								<a class="pdf" lang="en" href="Newsletters/mar_2020.pdf" rel="external" style="width:75px">Mar</a> 
 								<a class="pdf" lang="en" href="Newsletters/apr_2020.pdf" rel="external" style="width:75px">Apr</a> 
 								<a class="pdf" lang="en" href="Newsletters/may_2020.pdf" rel="external" style="width:75px">May</a> 
-								<a class="pdf" lang="en" href="<cms:editable name='june_2020' label='July 2020 File' desc='Upload the file here' type='file'/>"  style="width:75px">Jun</a> </center><!--href="newsletters/july_2015.pdf" rel="external"-->
+								<a class="pdf" lang="en" href="<cms:editable name='june_2020' label='June 2020 File' desc='Upload the file here' type='file'/>"  style="width:75px">Jun</a> </center><!--href="newsletters/july_2015.pdf" rel="external"-->
 							</div>							
 							<div class="download" style="height:35px"><center style="height:35px">
 								<a  download="" href="Newsletters/jan_2020.pdf" rel="external" ><h1 style="margin:auto; font-size:14px">Download</h1></a>
