@@ -1,0 +1,428 @@
+/* TABLE OF CONTENTS
+=============================================================================
+  1. Globals - Default HTML elements styling.
+  2. Library - Styling for custom elements used throughout the site.
+  3. Template - Styling for structure of the site.
+  4. Page Styles - Styling for page-specific elements.
+=============================================================================*/
+
+
+/* @group Globals
+=============================================================================
+Styling for default HTML elements.
+=============================================================================*/
+body {
+  background: #eeeeed;
+  color: #453c41;
+  font: normal 100 12px/1.5 Georgia, Times, serif;
+}
+a, a:visited {
+  color: #315279;
+}
+a:hover, a:active {
+}
+blockquote {
+  font-style: italic;
+  margin-left: 15px;
+}
+strong { font-weight: bold; }
+em { font-style: italic; }
+small { font-size: 30%; }
+h1 {
+  font: normal 30px/1.5 Georgia, Times, serif;
+}
+h1.site-title {
+  display: block;
+  background: url('../../../../common/graphics/video-page/logo-koc.png') no-repeat 0 0;
+  height: 61px;
+  text-indent: -9999px;
+  width: 223px;
+}
+h1.page-title {
+  display: block;
+  margin: 22px auto 0;
+  text-align: center;
+  *text-align: left;
+  width: 410px;
+}
+  h1 > a {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+h2 {
+  font: normal 22px/1.5 Georgia, Times, serif;
+}
+h3 {
+  font: normal 14px/1.5 Georgia, Times, serif;
+  margin-bottom: 5px;
+}
+/*::selection {
+}
+::-moz-selection {
+}*/
+/* @end */
+
+/* @group Library
+=============================================================================
+Styling for custom elements used throughout the site.
+=============================================================================*/
+.clearfix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+.clearfix { display: block; }
+.selfclear { clear: both; }
+img.alignright { margin-left: 15px; }
+img.alignleft { margin-right: 15px; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+.textleft { text-align: left; }
+.textcenter { text-align: center; }
+.textright { text-align: right; }
+.hidden, .hide { display: none; }
+
+nav.horz > ul {
+  margin-bottom: 0;
+}
+  nav.horz > ul > li {
+    display: inline;
+    list-style: none;
+    margin: 0 10px;
+  }
+
+/* Add extra padding to 960 grid */
+.wrapper-inner { padding: 0 10px; }
+.alpha .wrapper-inner { padding: 0 0 0 10px; }
+.omega .wrapper-inner { padding: 0 10px 0 0; }
+.alpha.omega .wrapper-inner { padding: 0 10px; }
+
+/*.tab-content {
+  display: none;
+}
+*/
+
+.thin-border {
+  border: 2px solid #acacac;
+}
+
+.pictos {
+  font: normal 13px/1.5 Pictos;
+}
+
+.sub-nav {
+  font-size: 14px;
+}
+  .sub-nav li {
+    list-style: none;
+  }
+  .sub-nav a {
+    color: #6c6c6c;
+    text-decoration: none;
+  }
+  .sub-nav li.current a,
+  .sub-nav a:hover {
+    color: #295180;
+    text-decoration: underline !important;
+  }
+
+/* @group Scrollable */
+  .scrollable {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 814px;
+  }
+    .scrollable .items {
+      position: absolute;
+      width: 2000px;
+    }
+    .scrollable > li,
+    .scrollable > ul > li {
+      float: left;
+      list-style: none;
+      margin: 0 3px;
+    }
+    .prev,
+    .next {
+      background: #d8dadb url('../../../../common/graphics/video-page/btn-slider-arrows.png') no-repeat 21px 5px;
+      display: block;
+      height: 25px;
+      text-indent: -9999px;
+      width: 21px;
+    }
+    .prev.disabled {
+      background-position: 21px -37px;
+    }
+    .next {
+      background-position: -18px 5px;
+    }
+    .next.disabled {
+      background-position: -18px -37px;
+    }
+/* @end */
+
+@font-face {
+	font-family: 'Pictos';
+	src: url('http://www.kofc.org/common/fonts/pictos-web.eot');
+	src: local('☺'), url('http://www.kofc.org/common/fonts/pictos-web.woff') format('woff'), url('http://www.kofc.org/common/fonts/pictos-web.ttf') format('truetype'), url('http://www.kofc.org/common/fonts/pictos-web.svg#webfontphKv1xv9') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a.main.current {
+/*  font-weight: bold;*/
+}
+
+/* @end */
+
+/* @group Template
+=============================================================================
+Styling for structure of the site.
+=============================================================================*/
+.wrapper-outer {
+  background: #fff;
+  border: 1px solid #dedede;
+  border: none\9;
+  border-top: none;
+  border-bottom: none;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 1020px;
+}
+  .wrapper {
+  }
+    header.primary {
+      border-bottom: 1px solid #d4d4d3;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      position: relative;
+    }
+      #close-window {
+        position: absolute;
+        right: 0;
+        top: -15px;
+        text-decoration: none;
+      }
+      #close-window:hover {
+       text-decoration: underline; 
+      }
+        #close-window > span {
+          color: #AB2220;
+          padding-right: 4px;
+        }
+    #page{
+    }
+.wrapper-outer-footer {
+  background: url('../../../../common/graphics/video-page/bg-shadow.png') no-repeat center top;
+  margin: 0 auto;
+  width: 1020px;
+}
+    footer.primary {
+      color: #7f7f7f;
+      font: normal 11px/1.5  Helvetica, Arial, Geneva, sans-serif;
+      padding: 10px 0 20px 0;
+      text-align: center;
+    }
+      footer.primary p {
+        margin: 5px;
+      }
+      footer.primary a {
+        color: #7f7f7f;
+      }
+      footer.primary li {
+        border-right: 1px solid #7f7f7f;
+        margin: 0 !important;
+        padding: 0 5px;
+      }
+      footer.primary li.last {
+        border: none;
+      }
+/* @end */
+
+/* @group Page Styles
+=============================================================================
+Styling for page-specific elements.
+=============================================================================*/
+/* @group Video Library */
+#video-library .gallery-video {
+  margin-bottom: 30px;
+}
+  #video-library .gallery-video h2 {
+    margin-bottom: 5px;
+  }
+  .video-meta {
+    margin-bottom: 20px;
+  }
+  #video #video-inner {
+    min-height: 275px;
+    padding: 20px;
+  }
+#video-library #categories {
+  position: relative;
+}
+  #video-library #categories a {
+    text-decoration: none;
+  }
+  #video-library #categories #nav-wrapper {
+    position: relative;
+  }
+  #video-library #categories nav.scrollable a,
+  #video-library #categories .next,
+  #video-library #categories .prev {
+    border: 1px solid #c7c7c7;
+    border-bottom: none;
+    color: #453c41;
+    display: block;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  #video-library #categories .prev,
+  #video-library #categories .next {
+    padding: 3px 18px;
+    position: absolute;
+    top: 0;
+  }
+  #video-library #categories nav.scrollable a {
+    background: #d8dadb;
+    min-width: 80px;    
+  }
+
+  #video-library #categories nav.scrollable a.current {
+    background: white;   
+  }
+  
+  #video-library #categories .next {
+    right: 0;
+  }
+  #video-library #categories .scrollable {
+    height: 32px;
+    z-index: 2;
+  }
+    #video-library #categories .scrollable li.active a {
+      background: #fff;
+      z-index: 10;
+    }
+    
+  #video-library #categories #panes-wrapper {
+    width: 938px;
+    border: 1px solid #c7c7c7;   
+    margin-top: -1px;
+    padding-top: 20px;
+/*    padding: 10px;*/
+    z-index: -1;
+  }
+  #video-library #categories .sub-nav {
+    width: 218px;
+  }
+  #video-library #categories div.row {
+    overflow:hidden;
+    clear:both;
+  }
+  #video-library #categories div.video {
+    font: normal 11px/1.5 Helvetica, Arial, Geneva, sans-serif;
+    margin-right: 15px;
+    min-height: 290px;
+    width: 330px;
+  }
+    #video-library #categories div.video .current-video > img {
+      border-color: #FEA000;
+    }
+  .green {
+    background: green !important;
+  }
+  
+  .loading-screen {
+    background: transparent url(../../../../common/graphics/video-page/loader.gif) no-repeat center center;
+    height: 400px;
+    display: block;
+    text-align: center;
+  }
+  .loading-screen p {
+    padding-top: 160px;
+  }
+  
+  .error-screen {
+    background: transparent url(../../../../common/graphics/video-page/error.png) no-repeat 224px 90px;
+    text-align: center;
+  }
+  
+  .error-screen p {
+    padding-top: 130px;
+  }
+  
+  
+  .playlist-tab.playlist-loaded {
+    background-image: none;
+    height: auto;
+  }
+  
+  .rightnav
+  {
+	padding: 5px;  
+  }
+  
+/* @end */
+/* @end */
+
+/* @group footer*/
+#footer {
+  width: 990px;
+  position: relative;
+  margin:0 auto;
+  height: 27px;
+  top: 0px;
+  font:  10px/14px Verdana, Arial, sans-serif;
+}
+
+#footer #wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	padding-top:20px;
+	color: #000;
+	margin-bottom:30px;
+}
+
+#footer #wrapper a {
+	color: #000;
+}
+
+#footer .copyright {
+	float: left;
+	width:auto;
+}
+
+#footer .bottom-nav {
+	float: right;
+	list-style-type: none;
+	text-transform: uppercase;
+	width:auto;
+	padding-right: 35px;
+}
+
+#footer .bottom-nav li {
+	float: left;
+	margin:0 10px 0 0;
+	padding-right: 10px;
+	border-right: 1px solid #000;
+	width:auto;
+	list-style-type: none;
+}
+
+#footer .bottom-nav li.last {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+/* @group Modernizr Styles
+=============================================================================
+Styling for lame browsers using Modernizr.
+=============================================================================*/
+.no-cssgradient {
+  /* fix me! */
+}
+/* @end */

@@ -1,0 +1,709 @@
+BODY {
+	MARGIN: 0px; COLOR: #000000; BACKGROUND-COLOR: #660000;
+}
+P {
+	LINE-HEIGHT: 140%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+BR {
+	LINE-HEIGHT: 140%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+UL {
+	LINE-HEIGHT: 140%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+LI {
+	LINE-HEIGHT: 140%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+TD {
+	FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+TH {
+	FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+H1 {
+	MARGIN-TOP: 5px; FONT-SIZE: 130%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+H2 {
+	MARGIN-TOP: 5px; FONT-SIZE: 100%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+H3 {
+	MARGIN-TOP: 5px; FONT-SIZE: 90%; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+INPUT {
+	FONT-SIZE: 75%
+}
+SELECT {
+	FONT-SIZE: 75%
+}
+LABEL {
+	FONT-WEIGHT: bold
+}
+HR {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+Q {
+	quotes: '201C' '201D' '2018' '2019'
+}
+
+img.noborder
+	{
+	border: 0 none !important;
+	}
+
+UNKNOWN {
+	quotes: '"' '"' "'" "'"
+}
+UNKNOWN {
+	quotes: '"' '"' "'" "'"
+}
+UNKNOWN {
+	quotes: '"' '"' "'" "'"
+}
+UNKNOWN {
+	quotes: '"' '"' "'" "'"
+}
+Q {
+	FONT-STYLE: italic
+}
+P > Q {
+	FONT-STYLE: normal
+}
+LI > Q {
+	FONT-STYLE: normal
+}
+Q:unknown {
+	content: open-quote
+}
+Q:unknown {
+	content: close-quote
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #336699; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.LeftNavigationLink:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.LeftNavigationLink:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.UtilityLink:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.UtilityLink:visited {
+	COLOR: #336699; TEXT-DECORATION: none
+}
+A.NavigationLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.NavigationLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.NavigationLink:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.NavigationLink:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.LeftNavigationLink:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.LeftNavigationLink:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.LeftNavigationActiveLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.LeftNavigationActiveLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.LeftNavigationActiveLink:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.LeftNavigationActiveLink:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.UtilityLink:active {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.UtilityLink:hover {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.AdvancedSearchLink:link {
+	FONT-SIZE: 80%; COLOR: #999999; TEXT-DECORATION: underline
+}
+A.AdvancedSearchLink:visited {
+	FONT-SIZE: 80%; COLOR: #aaaaaa; TEXT-DECORATION: underline
+}
+A.AdvancedSearchLink:active {
+	FONT-SIZE: 80%; COLOR: #cccccc; TEXT-DECORATION: underline
+}
+A.AdvancedSearchLink:hover {
+	FONT-SIZE: 80%; COLOR: #cccccc; TEXT-DECORATION: underline
+}
+A.CalloutLink:link {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.CalloutLink:visited {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.CalloutLink:active {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.CalloutLink:hover {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.SpotlightTitle:link {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.SpotlightTitle:visited {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.SpotlightTitle:active {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.SpotlightTitle:hover {
+	FONT-WEIGHT: bold; COLOR: #336699; TEXT-DECORATION: underline
+}
+A.HomePageHeaderLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: none
+}
+A.HomePageHeaderLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: none
+}
+A.ColumbiaViewLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.ColumbiaViewLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.ViewMoreResults:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.ViewMoreResults:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.HomePageHeaderLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HomePageHeaderLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaViewLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaViewLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ViewMoreResults:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ViewMoreResults:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HomePageLink:link {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.HomePageLink:visited {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.HighlightLink:link {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.HighlightLink:visited {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.InThisSectionLink:link {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.InThisSectionLink:visited {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: none
+}
+A.ColumbiaLink:link {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.ColumbiaLink:visited {
+	FONT-WEIGHT: bold; COLOR: #003366; TEXT-DECORATION: underline
+}
+A.HomePageLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HomePageLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HighlightLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: none
+}
+A.InThisSectionLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: none
+}
+A.HighlightLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.InThisSectionLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.FooterLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.FooterLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.FooterLink:active {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.FooterLink:hover {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.SmallLink:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; TEXT-DECORATION: none
+}
+A.SmallLink:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; TEXT-DECORATION: none
+}
+A.SmallLink:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; TEXT-DECORATION: none
+}
+A.SmallLink:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; TEXT-DECORATION: none
+}
+.BackToTop {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #003366; TEXT-ALIGN: right
+}
+.Container {
+	COLOR: #ffcc66; BACKGROUND-COLOR: #ffcc66
+}
+.Utility {
+	FONT-SIZE: 75%; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+.Content {
+	FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.Content1 {
+	FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #0000ff
+}
+.HighlightsHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+.InThisSectionHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+.ColumbiaColumnHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+.KIACountry {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+.Callout {
+	BORDER-RIGHT: #777777 2px solid; BORDER-TOP: #777777 2px solid; BORDER-LEFT: #777777 2px solid; BORDER-BOTTOM: #777777 2px solid
+}
+.CalloutHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffcc66; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #660000
+}
+.CalloutBody {
+	FONT-WEIGHT: bold; FONT-SIZE: 65%; COLOR: #003366; BACKGROUND-COLOR: #bdd3e9
+}
+.CalloutBullet {
+	FONT-SIZE: 65%; COLOR: #003366; BACKGROUND-COLOR: #999999
+}
+.CalloutBullet1 {
+	FONT-SIZE: 65%; COLOR: #003366; BACKGROUND-COLOR: #999999
+}
+.SpotlightImage {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.SpotlightTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #003366; BACKGROUND-COLOR: #999999
+}
+.SpotlightBody {
+	FONT-WEIGHT: normal; FONT-SIZE: 65%; COLOR: #003366; BACKGROUND-COLOR: #999999
+}
+.SpotlightBody1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 65%; COLOR: #003366; BACKGROUND-COLOR: #999999
+}
+.HomePageHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #003366
+}
+.ColumbiaHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #003366
+}
+.KIAHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #003366
+}
+.ColumbiaSubheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #003366
+}
+.BlueUnderline {
+	BORDER-TOP: #ffffff 2px solid; COLOR: #003366; BORDER-BOTTOM: #ffffff 2px solid; HEIGHT: 1px; BACKGROUND-COLOR: #003366
+}
+.ColumbiaAuthor {
+	COLOR: #003366
+}
+.KIANoHighlight {
+	COLOR: #003366
+}
+.KIAState {
+	FONT-SIZE: 90%; TEXT-ALIGN: left
+}
+.Copyright {
+	FONT-SIZE: 65%; COLOR: #ffffff
+}
+.ErrorText {
+	COLOR: #ff0000
+}
+.FormErrorText {
+	FONT-SIZE: 80%; COLOR: #ff0000
+}
+.ErrorAsterisk {
+	FONT-SIZE: 110%; COLOR: #ff0000
+}
+.PdfNotation {
+	FONT-WEIGHT: normal; FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.NewsSectionLineBlue {
+	BACKGROUND-COLOR: #6699cc
+}
+.NewsSectionLine {
+	BACKGROUND-COLOR: #6699cc
+}
+.ImageCaptionBox {
+	FLOAT: right; WIDTH: 227px; TEXT-ALIGN: center
+}
+.VideoFloat {
+	FLOAT: left; MARGIN-BOTTOM: 8px; WIDTH: 250px; MARGIN-RIGHT: 15px; TEXT-ALIGN: center
+}
+.ImageBorder {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.ImageCaption {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 3px; TEXT-ALIGN: left
+}
+.FindAgentHeader {
+	FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #ccccff
+}
+.Navigation {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffffff; BACKGROUND-COLOR: #660000
+}
+.NavigationActive {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffffff; BACKGROUND-COLOR: #999999
+}
+.NavigationActiveOrange {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffffff; BACKGROUND-COLOR: #999999
+}
+.TopNavigation {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #999999 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #660000
+}
+.TopNavigationActive {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #666666 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #666666 1px solid; BACKGROUND-COLOR: #999999 
+}
+.LeftNavigation {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #999999 1px solid; COLOR: #AB3900; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #660000
+}
+.LeftNavigationActive {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #999999 1px solid; COLOR: #AB3900; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #999999
+}
+.LeftNavigationActiveOrange {
+	BORDER-RIGHT: #999999 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #999999 1px solid; PADDING-LEFT: 9px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #999999 1px solid; COLOR: #AB3900; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #b33b00
+}
+.SearchForm {
+	DISPLAY: inline
+}
+.SearchText {
+	FONT-WEIGHT: normal; FONT-SIZE: 90%; FONT-FAMILY: Courier New, Courier, monospace
+}
+.SearchButton {
+	FONT-WEIGHT: normal; COLOR: #720010
+}
+.StandardFormButton {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #ffffff; BACKGROUND-COLOR: #003366
+}
+LABEL.Checkbox {
+	FONT-WEIGHT: normal
+}
+.altTableRowOdd {
+	FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.altTableRowEven {
+	FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #efefef
+}
+.formListHeader {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffffff; PADDING-TOP: 4px; BACKGROUND-COLOR: #336699
+}
+.formInstruction {
+	FONT-WEIGHT: normal; FONT-SIZE: 65%; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.formHeader {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #ffffff; PADDING-TOP: 4px; BACKGROUND-COLOR: #8a1c01
+}
+.formSubHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; COLOR: #000000; BACKGROUND-COLOR: #cc937a
+}
+.PrinterBody {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.PrinterContent {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; WIDTH: 550px; PADDING-TOP: 15px
+}
+.DonationContent {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 800px; PADDING-TOP: 10px
+}
+.OfficerFormsContent {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 600px; PADDING-TOP: 10px
+}
+.PrinterCopyright {
+	FONT-SIZE: 65%; COLOR: #003366; BACKGROUND-COLOR: #ffffff
+}
+A.PrinterHeaderLink:link {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.PrinterHeaderLink:visited {
+	COLOR: #003366; TEXT-DECORATION: none
+}
+A.PrinterHeaderLink:active {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+A.PrinterHeaderLink:hover {
+	COLOR: #003366; TEXT-DECORATION: underline
+}
+.museumHeading {
+	MARGIN-TOP: 5px; FONT-WEIGHT: bold; FONT-SIZE: 120%; COLOR: #8c1800; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif
+}
+.museumTourText {
+	MARGIN-TOP: 5px; FONT-WEIGHT: normal; FONT-SIZE: 75%; COLOR: #ffffcc; FONT-FAMILY: Verdana,Arial,Helvetica,sans-serif; BACKGROUND-COLOR: #8a1d03
+}
+.museumTourBG {
+	BACKGROUND-COLOR: #8a1d03
+}
+A.museumTourText:link {
+	COLOR: #ffffcc
+}
+A.museumTourText:visited {
+	COLOR: #ffffcc
+}
+.HomePageMuseumHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 130%; COLOR: #003366; TEXT-DECORATION: none
+}
+.nacError {
+	DISPLAY: none; FONT-SIZE: 90%; COLOR: #ff0000; FONT-FAMILY: verdana, arial
+}
+.nacInput {
+	FONT-SIZE: 100%; COLOR: #000000; FONT-FAMILY: verdana, arial
+}
+.CMHighlightNoLink {
+	FONT-WEIGHT: bold; FONT-SIZE: 100%; COLOR: #003366
+}
+.longField {
+	WIDTH: 227px
+}
+.longFieldDisabled {
+	WIDTH: 227px; COLOR: #333333; BACKGROUND-COLOR: #cccccc
+}
+.FACContent {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 10px; COLOR: #000000; PADDING-TOP: 10px; BACKGROUND-COLOR: #bdd6ef
+}
+.FACContent LABEL {
+	FONT-SIZE: 75%
+}
+.FACNote {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 70%; PADDING-BOTTOM: 10px; COLOR: #000000; PADDING-TOP: 10px; BACKGROUND-COLOR: #bdd6ef
+}
+.FACOR {
+	BORDER-RIGHT: #bdd6ef 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #bdd6ef 1px solid; COLOR: #003366; HEIGHT: 22px
+}
+.mileageIndicator {
+	FONT-SIZE: 90%; COLOR: #666666
+}
+.stateCouncilsHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; PADDING-BOTTOM: 2px; COLOR: #093a6a; BORDER-BOTTOM: #093a6a 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.assembliesHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; PADDING-BOTTOM: 2px; COLOR: #093a6a; BORDER-BOTTOM: #093a6a 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#commentsDisclaimer {
+	DISPLAY: none; FONT-SIZE: 75%; COLOR: #ff0000
+}
+.sectionBar1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #ffffff; BACKGROUND-COLOR: #336699
+}
+.sectionBar {
+	FONT-WEIGHT: bold; FONT-SIZE: 90%; COLOR: #003366; BACKGROUND-COLOR: #6699cc
+}
+.smallText {
+	FONT-SIZE: 90%
+}
+
+# The following was added by Shah Khatri as per Alan Miner 2/28/07, 3/2/07 {}
+.BodyTableHeader {
+	background-color:		#660000;
+	color:				#ffffff;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			right;
+	vertical-align:			top;
+	font-weight:			bold;
+	font-size:			11pt;
+}
+.content2 {
+	background-color:		#660000;
+	color:				#ffffff;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			center;
+	vertical-align:			top;
+	font-weight:			bold;
+	font-size:			8pt;
+}
+.content3 {
+	background-color:		#ffffff;
+	color:				#660000;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			left;
+	vertical-align:			top;
+	font-weight:			normal;
+	font-size:			8pt;
+}
+.spnMore {
+	background:			#ffffff;
+	color:				#000066;
+	width:				100%;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			right;
+	vertical-align:			bottom;
+	font-weight:			normal;
+	font-size:			8pt;
+}
+.initCap {
+	color:				#660000;
+	font-family:			times new roman,helvetica,sans-serif;
+	font-weight:			bold;
+	font-size:			16pt;
+}
+.img.BlackBorder {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+# The above was added by Shah Khatri as per Alan Miner 2/28/07, 3/2/07 {}
+
+# The following was added by Shah Khatri as per Alan Miner 4/4/07 {}
+.imgBooks {
+	border:				1px;
+	border-color:			#000000;
+	border-style:			solid;
+}
+td.tdBookclubHeader {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#6699cc;
+	/*background-image:		url('/eb/en/sk_bookclub/images/skbookclubnextmonth.jpg');*/
+	font-size:			12pt;
+	font-weight:			500;
+	text-align:			left;
+	vertical-align:			bottom;
+}
+td.tdBookclubHeaderBlue {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#6699cc;
+	font-size:			12pt;
+	font-weight:			500;
+	text-align:			left;
+	vertical-align:			bottom;
+}
+# Shah Khatri changed vertical-align of td.tdBookPicture as per Alan Miner on 7/25/07 {}
+td.tdBookPicture {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			10pt;
+	text-align:			center;
+	vertical-align:			top;
+	width:				33%;
+}
+td.tdBookBlurb {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#eeeeaa;
+	font-size:			8pt;
+	text-align:			left;
+	vertical-align:			top;
+	width:				33%;
+}
+td.tdBookClubPicture {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			8pt;
+	text-align:			center;
+	vertical-align:			top;
+	width:				33%;
+}
+td.tdBookClubBlurb {
+	font-family:			verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			10pt;
+	text-align:			left;
+	vertical-align:			top;
+	width:				67%;
+}
+span.spnAuthor {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			8pt;
+	font-weight:			800;
+	text-align:			center;
+	vertical-align:			top;
+}		
+# Shah Khatri removed vertical-align from a.aMore as per Alan Miner on 7/25/07 {}
+a.aMore {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#000066;
+	background:			#ffffff;
+	font-size:			7pt;
+	font-weight:			800;
+	text-align:			center;
+}		
+td.tdBookstoreSmallHeader {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#003366;
+	font-size:			10pt;
+	font-weight:			500;
+	text-align:			center;
+	vertical-align:			top;
+}
+td.tdBookstoreHeader {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#003366;
+	font-size:			14pt;
+	font-weight:			500;
+	text-align:			center;
+	vertical-align:			top;
+}
+# The above was added by Shah Khatri as per Alan Miner 4/4/07 {}

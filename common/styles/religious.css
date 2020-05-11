@@ -1,0 +1,18 @@
+body {background: #000; color: #fff; font-family: 'PT Sans', Georgia, serif; font-size: 13px; line-height: 19px; text-align: center;}
+#container {width: 960px; margin: 30px auto 0 auto; text-align: left;}
+#header {width: 30%; text-align: center; font-size: 150%; line-height: 150%; float: left; font-family: "Vollkorn", Georgia, serif;}
+#header h1 {font-weight: normal; font-size: 150%;}
+#explanation {width: 60%; float: right;}
+#explanation ul {display: block; padding: 10px; border: 1px solid #fff; margin: 0;}
+#explanation ul li {padding-left: 23px; list-style: none;}
+#explanation ul li.concern {background: transparent url(../../../common/graphics/bullet-red.png) no-repeat top left;}
+#explanation ul li.watchlist {background: transparent url(../../../common/graphics/bullet-blue.png) no-repeat top left;}
+#explanation ul li.monitored {background: transparent url(../../../common/graphics/bullet-yellow.png) no-repeat top left;}
+#header h1, #explanation strong {text-transform: uppercase;}
+#map {position: relative; margin-top: 40px; background: transparent url(../../../common/graphics/ajax-loader.gif) no-repeat center center; min-height: 70px; height: auto !important; height: 70px;}
+#description {position: absolute; width: 400px; background-color: #333; display: none; padding: 20px;}
+#description h2.title {margin-top: 0; font-family: "Vollkorn", Georgia, serif; text-transform: uppercase;}
+#countryname {position: absolute; background-color: #333; padding: 2px 5px; display: none;}
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0;}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */

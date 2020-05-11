@@ -1,0 +1,193 @@
+/**
+ * HTML Elements
+ */
+a.bookTitle
+{
+text-decoration: underline;
+}
+
+.clearfix:after
+{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#headline
+{
+  width: 100%;
+  /*background: #FFFFFF url(http://www.headlinebistro.com/shared/images/layout/headline.gif) no-repeat center top;*/
+  margin-right: 10px;
+  padding: 0;
+  float: left;
+  position: relative;
+}
+
+#headline-inner
+{
+  padding: 17px 24px;
+  background: url(../../../eb/common/fourth/images/bg.html) no-repeat left top;
+}
+
+#headline p
+{
+  font-size: 8pt;
+  color: #444444;
+  margin-bottom: 20px !important;
+}
+
+#headline h1
+{
+  margin: 5px 0 0 0;
+  font-size: 11.5pt;
+  color: #515151;
+}
+
+#headline span.date,
+.news-story span.date
+{
+  font-family: "Lucida Grande", Verdana, Helvetica, Helv, Arial, "Liberation Sans", Sans, sans-serif;
+  font-size: 8.5pt;
+  font-weight: bold;
+  color: #3356A2;
+}
+
+
+/**
+ * News update section
+ */
+.news_update
+{
+  padding: 0;
+  margin: 0;
+}
+
+.news_instructions
+{
+  margin-left: 10px;
+  padding: 10;
+  
+}
+
+.news_update_js
+{
+  /*overflow: hidden !important;*/
+  margin: 0 ;
+}
+
+.story
+{
+  position: relative;
+  top: 50px;
+  left: 0px;
+  margin-bottom: 0px;
+}
+
+.news_update img
+{
+  float: left;
+  margin-right: 15px;
+}
+
+.news_update h2.title
+{
+  font-size: 13pt;
+  line-height: 1.3em;
+  margin-bottom: 0px;
+  padding-top: 4px;
+  text-align: left;
+}
+
+.news_update p.header_date {
+  font-size: 10pt !important;
+  color: #4661D4 !important;
+  margin-bottom: 0;
+}
+
+ul.news_nav li, ul.nav li
+{
+  display: inline;
+  list-style: none;
+  margin-left: 0 !important;
+}
+
+a.more
+{
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+
+/**
+*  News update navigation
+*/
+
+ul.news_nav
+{
+  display: block;
+  top: -13px;
+  z-index: 10;
+  position: absolute;
+  left: 0px;
+  width: 673px;
+  margin-left: 0 !important;
+}
+
+ul.news_nav li
+{
+  list-style: none;
+  text-align: center;
+  float: left;
+  margin-left: 0px;
+}
+
+ul.news_nav li.ellip
+{
+  border: none;
+  background-color: transparent;
+}
+
+ul.news_nav li.current
+{
+  background-color: #003366;
+}
+
+ul.news_nav li a,
+ul.news_nav li a:link,
+ul.news_nav li a:visited
+{
+  display: block;
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #003366;
+  margin: 5px 1px;
+  height: 30px;
+  padding: 5px;
+  font-size: 90%;
+  text-decoration: none;
+  float: left;
+  line-height: 1.25em;
+}
+
+ul.news_nav li a:hover,
+ul.news_nav li a:focus,
+ul.news_nav li a:active,
+ul.news_nav li a.active
+{
+  background-color: #6699cc;
+  color: #FFFFFF;
+  line-height: 1.25em;
+}
+
+ul.news_nav li a.last
+{
+  border: none;
+}
+
+/*.clearfix {display: inline-block;}*/
+
+/* KOC customizations by Andy Wong and Shah Khatri follow: */

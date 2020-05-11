@@ -1,0 +1,1010 @@
+/* @override http://stage.kofc.org/un/eb/common/fourth/css/legacy.css */
+
+/*Fllowing are styles that go back to the establishment of the site in 2003 that we believe we will need to retain to distinguish design elements for particular sections, particularly Columbia magazine, Knights in Action. We're not sure about the home page styles, that is whether we should keep and miodify them to your new adesign parameters to just eliminate them and use your styles. Your help on that oint whould be appreciated.*/
+
+table {
+	border-spacing: 1px;
+}
+
+td.tdBookBlurb {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#eeeeaa;
+	font-size:			8pt;
+	text-align:			left;
+	vertical-align:			top;
+	width:				33%;
+}
+
+table td {
+	vertical-align: top;
+}
+
+#miscTable {
+	background-color: #bdd3ec;
+	border: 1px solid #bdd3ec;
+}
+
+#miscTable td
+{
+	vertical-align: top;
+	padding: 5px;
+	margin: 1px;
+}
+
+A.HomePageHeaderLink:link {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: none
+}
+A.HomePageHeaderLink:visited {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: none
+}
+A.ColumbiaViewLink:link {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.ColumbiaViewLink:visited {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:link {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:visited {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.HomePageHeaderLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HomePageHeaderLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaViewLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaViewLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.PrinterFriendlyLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HomePageLink:link {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: none
+}
+A.HomePageLink:visited {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: none
+}
+A.ColumbiaLink:link {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.ColumbiaLink:visited {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.HomePageLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.HomePageLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaLink:active {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.ColumbiaLink:hover {
+	FONT-WEIGHT: bold; COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.FooterLink:link {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.FooterLink:visited {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+A.FooterLink:active {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.FooterLink:hover {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+A.SmallLink:link {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none; padding-left:5px;
+}
+A.SmallLink:active {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.SmallLink:hover {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.SmallLink:visited {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+#langLinks {
+	float: right;
+	position: relative;
+	font-size: 10px;
+	color: #ffffff;
+	width: 220px;
+	top: 10px;
+}
+#langLinks A.UtilityLink {
+	font-size: 10px;
+	color: #ffffff;
+}
+
+.BackToTop {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; TEXT-ALIGN: right
+}
+.Container {
+	COLOR: #ffcc66; BACKGROUND-COLOR: #ffcc66
+}
+.Utility {
+  COLOR: #5E85B6; BACKGROUND-COLOR: #ffffff
+}
+.Content {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff; vertical-align: top;
+}
+.InThisSectionHeader {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; BACKGROUND-COLOR: #ffffff
+}
+.ColumbiaColumnHeader {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; BACKGROUND-COLOR: #ffffff
+}
+
+/* @group TableContents Main Content Menu */
+#TableContents
+{
+	width: 200px;
+	margin: 10px 2em 1em 0;
+}
+
+#TableContents ul
+{
+	float:left;
+  	margin:0px;
+  	padding:0px;
+	width: 200px;
+	border: 1px solid #cccccc;
+}
+
+#TableContents ul li
+{
+	position: relative;
+	list-style: none;
+	display: block;
+	padding: 5px;
+	margin: 0px;
+	background-color: #efefef;
+}
+
+#TableContents ul li.formListHeader
+{
+	background-color: #7893b3;
+	color: #fff;
+	font-weight: bold;
+}
+
+#TableContents ul li.active
+{
+	background-color: #fff;
+}
+
+#TableContents ul li h2
+{
+	font-weight: bold;
+	line-height: 1em;
+	min-height:0;
+}
+
+#TableContents ul li a
+{
+	text-decoration: none;
+	color: #3165A6;
+}
+/* End TableContents Main Content Menu */
+
+/* @group Sitemap */
+#sitemapul
+{
+	width: 664px;	
+}
+
+#sitemapul table td
+{
+	vertical-align: top;
+}
+
+#sideA
+{
+	float: left;
+	width: 332px;
+}
+
+#sideB
+{
+	float: right;
+	width: 332px;
+}
+
+#sitemapul ul li
+{
+	margin: 25px;
+	line-height: .05em;
+}
+
+#sitemapul ul li.title
+{
+	margin: 0px;
+	list-style:none;
+	font-weight: bold;
+}
+
+#sitemapul ul li.last
+{
+	margin: 25px;
+	padding-bottom: 15px;
+}
+
+#sitemapul ul li a
+{
+	color: #003366;
+	text-decoration:none;
+}
+
+#sitemapTable 
+{
+	background-color: #bed3f0;
+	padding: 1px;
+}
+
+#sitemapTable td
+{
+	padding: 5px;	
+}
+/* End Sitemap */
+
+/* @group Contact Forms */
+
+.formsstyle td
+{
+	padding: 5px;	
+	vertical-align: top;
+}
+
+/* End Contact Forms */
+
+ul.columbiaAction
+{
+padding: 0;
+margin: 0;
+width: 380px;
+}
+
+.columbiaAction li
+{
+line-height: 2em;
+display: block;
+text-indent: 20px;
+}
+
+.columbiaAction li.colTitle
+{
+background: url(../graphics/shield_small.gif) left no-repeat;
+display: block;
+position: relative;
+line-height: 2em;
+min-height:0;
+text-indent: 12px;
+border-bottom: 1px solid #999999;
+}
+
+
+.KIACountry {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; BACKGROUND-COLOR: #ffffff
+}
+/* We believe the callout styles are related to popups we use in find a council when linking users offsite, but i am not sure.*/
+
+.Callout {
+	BORDER-RIGHT: #5E85B6 2px solid; BORDER-TOP: #5E85B6 2px solid; BORDER-LEFT: #5E85B6 2px solid; BORDER-BOTTOM: #5E85B6 2px solid
+}
+.CalloutHeader {
+	FONT-WEIGHT: bold; COLOR: #ffcc66; BORDER-BOTTOM: #5E85B6 1px solid; BACKGROUND-COLOR: #5E85B6
+}
+.CalloutBody {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; BACKGROUND-COLOR: #bdd3e9
+}
+.CalloutBullet {
+  COLOR: #5E85B6; BACKGROUND-COLOR: #bdd3e9
+}
+.HomePageHeader {
+	FONT-WEIGHT: bold; COLOR: #5E85B6
+}
+.ColumbiaHeader {
+	FONT-WEIGHT: bold; COLOR: #5E85B6
+}
+.KIAHeader {
+	FONT-WEIGHT: bold; font-size: 14px; COLOR: #5E85B6
+}
+.ColumbiaSubheader {
+	FONT-WEIGHT: bold; COLOR: #5E85B6
+}
+.BlueUnderline {
+	BORDER-TOP: #ffffff 1px solid; COLOR: #5E85B6; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 2px; BACKGROUND-COLOR: #5E85B6; margin-top: 5px; padding: 0px !important;
+}
+.ColumbiaAuthor {
+	COLOR: #5E85B6
+}
+.KIANoHighlight {
+	COLOR: #5E85B6
+}
+.KIAState {
+  TEXT-ALIGN: left
+}
+
+.NewsSectionLineBlue {
+	BACKGROUND-COLOR: #6699cc;
+        height: 2px;
+}
+.NewsSectionLine {
+	BACKGROUND-COLOR: #6699cc;
+	height: 2px;
+	padding: 0px !important;
+}
+
+/*We believe videofloat is related to early flash elements we will continue to use on the site.*/
+
+.VideoFloat {
+	FLOAT: left; MARGIN-BOTTOM: 8px; WIDTH: 250px; MARGIN-RIGHT: 15px; TEXT-ALIGN: center
+}
+.ImageBorder {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.ImageCaption {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 3px; TEXT-ALIGN: left
+}
+
+/* We need to retain these styles for the find an agent section. Question is are we delievering a new look to that section as well? Ditto search?*/
+
+.FindAgentHeader {
+  COLOR: #000000; BACKGROUND-COLOR: #ccccff
+}
+.SearchForm {
+	DISPLAY: inline
+}
+.SearchText {
+	FONT-WEIGHT: normal; FONT-FAMILY: Courier New, Courier, monospace
+}
+.SearchButton {
+	FONT-WEIGHT: normal; COLOR: #720010
+}
+.StandardFormButton {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #5E85B6
+}
+LABEL.Checkbox {
+	FONT-WEIGHT: normal	
+}
+/*The following row styles are used extensively on kofc.org, and we're eager to find an efficacious solution for replacing them or subsituting for them. We want to avoid going through the many hundreds of tables on the site and recoding them one at a time. Again, we need your help in coming up with the best solution.*/
+
+.altTableRowOdd {
+  COLOR: #000000; BACKGROUND-COLOR: #ffffff;
+}
+.altTableRowEven {
+	COLOR: #000000; BACKGROUND-COLOR: #efefef;
+}
+.formListHeader {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #7893b3;
+}
+.formInstruction {
+	FONT-WEIGHT: normal; COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.formHeader {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; COLOR: #ffffff; PADDING-TOP: 4px; BACKGROUND-COLOR: #8a1c01
+}
+.formSubHeader {
+	FONT-WEIGHT: bold; COLOR: #000000; BACKGROUND-COLOR: #cc937a
+}
+.PrinterBody {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+.PrinterContent {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; WIDTH: 550px; PADDING-TOP: 15px
+}
+.DonationContent {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 800px; PADDING-TOP: 10px
+}
+.OfficerFormsContent {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; WIDTH: 600px; PADDING-TOP: 10px
+}
+.PrinterCopyright {
+	COLOR: #5E85B6; BACKGROUND-COLOR: #ffffff
+}
+A.PrinterHeaderLink:link {
+	COLOR: #5E85B6; TEXT-DECORATION: none
+}
+A.PrinterHeaderLink:visited {
+	COLOR: #5E85B6; TEXT-DECORATION: none
+}
+A.PrinterHeaderLink:active {
+	COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+A.PrinterHeaderLink:hover {
+	COLOR: #5E85B6; TEXT-DECORATION: underline
+}
+.nacError {
+	DISPLAY: none; FONT-SIZE: 90%; COLOR: #ff0000; FONT-FAMILY: verdana, arial
+}
+.nacInput {
+	COLOR: #000000; FONT-FAMILY: verdana, arial
+}
+.CMHighlightNoLink {
+	FONT-WEIGHT: bold; COLOR: #5E85B6
+}
+.longField {
+	WIDTH: 227px
+}
+.longFieldDisabled {
+	WIDTH: 227px; COLOR: #333333; BACKGROUND-COLOR: #cccccc
+}
+
+/*FAC referes to the Find a Council app. These styles will need to be retained for the app. Again, the question remains as to whether the new look is intended to be applied to the app.*/
+
+.FACContent {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 10px; COLOR: #000000; PADDING-TOP: 10px; BACKGROUND-COLOR: #bdd6ef
+}
+.FACContent LABEL {
+
+}
+.FACNote {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 70%; PADDING-BOTTOM: 10px; COLOR: #000000; PADDING-TOP: 10px; BACKGROUND-COLOR: #bdd6ef
+}
+.FACOR {
+	BORDER-RIGHT: #bdd6ef 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 75%; BORDER-LEFT: #bdd6ef 1px solid; COLOR: #5E85B6; HEIGHT: 22px
+}
+.mileageIndicator {
+  COLOR: #666666
+}
+.stateCouncilsHeader {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #093a6a; BORDER-BOTTOM: #093a6a 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.assembliesHeader {
+	FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; COLOR: #093a6a; BORDER-BOTTOM: #093a6a 1px solid; BACKGROUND-COLOR: #ffffff
+}
+#commentsDisclaimer {
+	DISPLAY: none; COLOR: #ff0000
+}
+.sectionBar1 {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #336699
+}
+.sectionBar {
+	FONT-WEIGHT: bold; COLOR: #5E85B6; BACKGROUND-COLOR: #6699cc
+}
+.smallText {
+ font-size:11px;
+}
+/*---------------Following added 12/10, style classes for /eb/en/utility_pages/yule_2007 pages. These styles need to be retained.-----------*/
+
+.clearfix:after
+{
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+
+
+.left_sidebar_tabs
+
+{
+
+  margin-bottom: 0;
+  width: 384px;
+
+}
+
+
+
+.left_sidebar_tabs h3
+
+{
+
+  margin: 2em 0em 0em 0em;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav
+
+{
+
+  margin: 0px 0px 0px 5px;
+
+  display: none;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav_js
+
+{
+
+  display: block;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav li
+
+{
+
+  float: left;
+
+  margin: 0px 0px 0px -1px !important;
+
+  padding: 0 !important;
+
+  list-style: none;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav li a
+
+{
+
+  display: block;
+
+
+  text-indent: -9999px;
+
+  height: 43px;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav li a.active
+
+{
+
+  background-position: 0px 0px !important;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav #tab_us a
+
+{
+
+  background: transparent url(../graphics/tab_us.gif) no-repeat 0px 4px;
+
+  width: 94px;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav #tab_canada a
+
+{
+
+  background: transparent url(../../../en/graphics/yule/tab_canada.gif) no-repeat 0px 4px;
+
+  width: 168px;
+
+}
+
+
+
+.left_sidebar_tabs .tabs_nav #tab_international a
+
+{
+
+  background: transparent url(../../../en/graphics/yule/tab_international.gif) no-repeat 0px 4px;
+
+  width: 113px;
+
+}
+
+
+
+#us
+
+{
+
+  padding-top: 6px;
+
+  margin: 0px 0px 10px 0px;
+
+}
+
+
+
+.tab_content_outer
+
+{
+
+  background: transparent url(../../../en/graphics/yule/tab_content_top.gif) no-repeat top left;
+
+  padding-top: 6px;
+
+  margin: 0px 0px 10px 0px;
+
+}
+
+
+
+.tab_content_inner
+
+{
+
+  background: transparent url(../../../en/graphics/yule/tab_content_bottom.gif) no-repeat bottom left;
+
+  padding: 0px 14px 1px 14px;
+
+  margin: 0;
+
+}
+
+
+
+.tab_content_middle
+
+{
+
+  background: transparent url(../../../en/graphics/yule/tab_content_middle.gif) repeat-y top left;
+
+  margin: 0;
+
+}
+
+
+
+#map
+
+{
+
+  margin-left: 4px;
+
+}
+
+
+
+.voter_footer
+
+{
+
+  background: url(../../../en/graphics/yule/bg_tab_foot.gif);
+
+  background-repeat: no-repeat;
+
+  background-position: bottom left;
+
+  color: #fff;
+
+  height:17px;
+
+  font-size: 10px;
+
+  padding-top: 3px;
+
+  text-align: center;
+
+  width: 380px;
+
+  margin: 0px 0px 0px 4px;
+
+}
+
+
+
+.voter_footer a:link, 
+
+.voter_footer a:visited
+
+{
+
+  color: #fff;  
+
+  text-decoration: underline;
+
+}
+
+#canada {
+	margin-top: 7px;
+}
+
+#international {
+	margin-top: 7px;
+}
+
+/*following added 01/14/2009 by Andy Wong - additional style formats for the forms. These styles apply to contact forms and need to be retained.*/
+
+.forms td
+{
+font-size: 120%;
+}
+
+#txtFld
+{
+font-size: 110%;
+}
+
+.caption
+{
+font-size: 80%;
+}
+
+.caption_l
+{
+font-size: 80%;	
+}
+
+#submit
+{
+font-size: 100%;
+}
+#alert
+{
+color: #ff0119;
+}
+
+/* The following added by Shah Khatri on 3/9/09 to work with "formservice" forms */
+.displayBad {
+  color: #f00;
+}
+
+#errorDiv p {
+  color: #f00;
+}
+
+#flashobj
+{
+position: fixed;
+z-index: 100;
+}
+
+/*Following added on 7/30/2009 for Convention 2009 homepage and need to be retained.*/
+
+#reportTxt
+{
+background: #6699cc;
+font-family: Myriad Pro, Arial, Verdana;
+font-size: 150%;
+color: #ffffff;
+width: 250px;
+padding-left: 5px;
+}
+
+#txt09
+{
+width: 200px;
+font-family: Lucida Calligraphy, Myriad Pro, Verdana;
+font-size: 200%;
+color: #999999;
+padding: 5px;
+}
+
+#containTxt
+{
+border-top: 1px solid #333333;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+width: 700px;
+height: 700px;
+}
+
+#containTxtCol
+{
+border-top: 1px solid #333333;
+border-right: 1px solid #333333;
+border-bottom: 1px solid #333333;
+width: 530px;
+height: 500px;
+}
+
+#containTxt h2
+{
+font-family: Centaur, Myriad Pro, Verana;
+font-size: 200%;
+font-weight: bold;
+padding-left: 10px;
+position: relative;
+top: 10px;
+}
+
+ul.noStyle
+{
+list-style: none;
+}
+
+li.borderL
+{
+display: block;
+width: 300px;
+border-left: 1px solid #999999;
+border-bottom: 1px solid #999999;
+line-height: 2em;
+padding-left: 5px;
+}
+
+/*These syles apply to convention sections and need to be retained. */
+
+A.conv09TableofContents:link {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+A.conv09TableofContents:visited {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+A.conv09TableofContents:active {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+A.conv09TableofContents:hover {
+	COLOR: #993300; TEXT-DECORATION: none
+}
+
+#collage
+{
+position: relative;
+z-index:10;
+}
+
+/*.stbuttontext
+	{
+	font-weight: bold;
+	font-size: .7em;
+	}*/
+
+
+/*Added on 9/23/2009 by Andy Wong for Carl A. Anderson bio page. These need to be retained.*/
+
+.sk_bio
+{
+position: relative;
+float: left;
+left: -3.25em;
+clear: both;
+}
+
+.sk_bio li
+{
+position: relative;
+display: block;
+float: left;
+list-style-type: none;
+background: #5E85B6;
+border-right: 1px solid #ffcc00;
+color: #ffffff;
+}
+
+.sk_bio li a:link
+{
+display: block;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li a:active
+{
+display: block;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li a:visited
+{
+display: block;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li a:hover
+{
+display: block;
+background-color: #6699cc;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li.active a:link
+{
+display: block;
+background-color: #6699cc;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li.active a:visited
+{
+display: block;
+background-color: #6699cc;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li.active a:active
+{
+display: block;
+background-color: #6699cc;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+
+.sk_bio li.active a:hover
+{
+display: block;
+background-color: #6699cc;
+text-decoration: none;
+color: #ffffff;
+padding: 5px 5px 5px 5px;
+}
+/*Fixing bullets next to headings*/
+td.Content + img {
+  padding-right:5px;
+}
+td.KIACountry + img {
+  padding-right:5px;
+}
+
+/* @group footer*/
+#footer_noSitemap {
+  width: 990px;
+  position: relative;
+  top: -60px;
+  margin:0 auto;
+  height: 27px;
+  background: transparent url(../graphics/footer.png) no-repeat 0 0;
+  font:  10px/14px Verdana, Arial, sans-serif;
+}
+
+#footer_noSitemap #wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 950px;
+	color: #ffffff;
+	padding-top:20px;
+	margin-bottom:30px;
+}
+
+#footer_noSitemap #wrapper a {
+	color: #ffffff;
+}
+
+#footer_noSitemap .copyright {
+	float: left;
+	width:auto;
+}
+
+#footer_noSitemap .bottom-nav {
+	float: right;
+	list-style-type: none;
+	text-transform: uppercase;
+	width:auto;
+}
+
+#footer_noSitemap .bottom-nav li {
+	float: left;
+	margin-right: 10px;
+	padding-right: 10px;
+	border-right: 1px solid #ffffff;
+	width:auto;
+	list-style-type: none;
+}
+
+#footer_noSitemap .bottom-nav li.last {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

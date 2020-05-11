@@ -1,0 +1,740 @@
+/*
+ Filename: $Workfile:   knights-mac.css  $
+ Original author: B. Menoza
+ Creation date: 7/11/2003
+ Version: $Revision:   1.4  $
+ Modified by: $Author:   asigrist  $ on $Date:   Dec 05 2005 15:42:42  $
+
+ Copyright (c) 2003 Molecular, Inc.
+ 343 Arsenal St.
+ Watertown, MA 02472
+ (617) 218-6500
+ http://molecular.com
+*/
+
+/* ELEMENTS */
+BODY {
+    background-color: #660000;
+    color: #000000;
+    margin: 0px 0px 0px 0px;
+}
+P, BR, UL, LI {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    line-height: 140%;
+}
+TD {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+TH {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+
+}
+H1 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+    font-size: 18pt;
+}
+
+H2 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+    font-size: 14pt;
+}
+
+H3 {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+    font-size: 12pt;
+}
+INPUT, SELECT {
+    font-size: 12pt;
+}
+LABEL {
+    font-weight: bold;
+}
+HR {
+    display: inline;
+    padding: 0px 0px 0px 0px;
+}
+
+img.noborder
+	{
+	border: 0 none !important;
+	}
+
+/* LINKS */
+A:link {
+    color: #003366;
+    text-decoration: underline;
+}
+A:visited {
+    color: #336699;
+    text-decoration: underline;
+}
+A:active, A:hover {
+    color: #6699CC;
+    text-decoration: underline;
+}
+
+/* LINKS WITH CLASSES */
+A.LeftNavigationLink:link, A.LeftNavigationLink:visited, A.UtilityLink:link, A.UtilityLink:visited {
+    color: #003366;
+    text-decoration: none;
+}
+A.NavigationLink:link, A.NavigationLink:visited, A.NavigationLink:active, A.NavigationLink:hover, A.LeftNavigationLink:active, A.LeftNavigationLink:hover, A.LeftNavigationActiveLink:link, A.LeftNavigationActiveLink:visited, A.LeftNavigationActiveLink:active, A.LeftNavigationActiveLink:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+A.HighlightLink:link, A.HighlightLink:visited, A.InThisSectionLink:link, A.InThisSectionLink:visited {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+A.HighlightLink:active, A.InThisSectionLink:active {
+    color: #6699CC;
+    font-weight: bold;
+    text-decoration: none;
+}
+A.HighlightLink:hover, A.InThisSectionLink:hover {
+    color: #6699CC;
+    font-weight: bold;
+    text-decoration: underline;
+}
+A.AdvancedSearchLink:link, A.AdvancedSearchLink:visited, A.AdvancedSearchLink:active, A.AdvancedSearchLink:hover {
+    color: #BDD3E9;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+A.CalloutLink:link, A.CalloutLink:visited, A.CalloutLink:active, A.CalloutLink:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+A.SpotlightTitle:link, A.SpotlightTitle:visited, A.SpotlightTitle:active {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+A.SpotlightTitle:hover {
+    color: #336699;
+    font-weight: bold;
+    text-decoration: underline;
+}
+    
+A.HomePageHeaderLink:link, A.HomePageHeaderLink:visited {
+    color: #003366;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+A.ColumbiaViewLink:link, A.ColumbiaViewLink:visited, A.PrinterFriendlyLink:link, A.PrinterFriendlyLink:visited, A.ViewMoreResults:link, A.ViewMoreResults:visited {
+    color: #003366;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+A.HomePageHeaderLink:active, A.HomePageHeaderLink:hover, A.ColumbiaViewLink:active, A.ColumbiaViewLink:hover, A.PrinterFriendlyLink:active, A.PrinterFriendlyLink:hover, A.ViewMoreResults:active, A.ViewMoreResults:hover {
+    color: #6699CC;
+    font-size: 10pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+A.HomePageLink:link, A.HomePageLink:visited {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: none;
+}
+A.ColumbiaLink:link, A.ColumbiaLink:visited {
+    color: #003366;
+    font-weight: bold;
+    text-decoration: underline;
+}
+A.HomePageLink:active, A.HomePageLink:hover, A.ColumbiaLink:active, A.ColumbiaLink:hover {
+    color: #6699CC;
+    font-weight: bold;
+    text-decoration: underline;
+}
+A.FooterLink:link, A.FooterLink:visited {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+A.FooterLink:active, A.FooterLink:hover {
+    color: #6699CC;
+    text-decoration: underline;
+}
+A.SmallLink:link, A.SmallLink:active, A.SmallLink:hover, A.SmallLink:visited {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 80%;
+}
+
+/* CLASSES */
+
+.BackToTop {
+    color: #003366;
+    font-size: 75%;
+    font-weight: bold;
+    text-align: right;
+}
+.Container {
+    background-color: #FFCC66;
+    color: #FFCC66;
+}
+.Utility {
+    background-color: #FFFFFF;
+    color: #093A6A;
+    font-size: 12pt;
+}
+.Content {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 12pt;
+}
+.HighlightsHeader, .InThisSectionHeader, .ColumbiaColumnHeader, .KIACountry {
+    font-weight: bold;
+    font-size: 12pt;
+    background-color: #FFFFFF;
+    color: #093A6A;
+}
+.Callout {
+    border: 2px #003366 solid;
+}
+.CalloutHeader {
+    background-color: #660000;
+    color: #FFCC66;
+    font-size: 12pt;
+    font-weight: bold;
+    border-bottom: 1px #999999 solid;
+}
+.CalloutBody {
+    background-color: #BDD3E9;
+    color: #336699;
+    font-size: 10pt;
+    font-weight: bold;
+}
+.CalloutBullet {
+    background-color: #BDD3E9;
+    color: #336699;
+    font-size: 10pt;
+}
+.SpotlightImage {
+    border: 1px #003366 solid;
+}
+.SpotlightTitle {
+    background-color: #BDD3E9;
+    color: #003366;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.SpotlightBody{
+    background-color: #BDD3E9;
+    color: #003366;
+    font-size: 10pt;
+    font-weight: normal;
+}
+.HomePageHeader, .ColumbiaHeader, .KIAHeader {
+    color: #003366;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.ColumbiaSubheader {
+    color: #003366;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.BlueUnderline {
+    color: #003366;
+    background-color: #003366;
+    border-top: 2px #FFFFFF solid;
+    border-bottom: 2px #FFFFFF solid;
+    height: 1px;
+}
+.ColumbiaAuthor {
+    color: #003366;
+}
+.Copyright {
+    color: #FFFFFF;
+    font-size: 10pt;
+}
+
+.KIAState {
+    font-size: 90%;
+    text-align: left;
+}
+
+.ErrorText {
+    color: #FF0000;
+}
+.FormErrorText {
+    color: #FF0000;
+	font-size: 10pt;
+}
+.ErrorAsterisk {
+    color: #FF0000;
+    font-size: 14pt;
+}
+.PdfNotation {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 9pt;
+    font-weight: normal;
+}
+.NewsSectionLine {
+    background-color: #6699CC;
+}
+.ImageCaptionBox {
+    width: 227px;
+    text-align: center;
+    float: right;
+}
+.VideoFloat {
+    width: 250px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    text-align: center;
+    float: left;
+}
+.ImageBorder {
+    border: 1px #000000 solid;
+}
+.ImageCaption {
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: left;
+}
+.FindAgentHeader {
+    background-color: #CCCCFF;
+    color: #000000;
+    font-size: 75%;
+}
+
+/* CLASSES: NAVIGATION */
+.Navigation {
+    background-color: #660000;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.NavigationActive {
+    background-color: #6699CC;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.NavigationActiveOrange {
+    background-color: #999999;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.TopNavigation {
+    background-color: #660000;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    border: 1px #666666 solid;
+}
+.TopNavigationActive {
+    background-color: #6699CC;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    border: 1px #7DA7D9 solid;
+}
+.LeftNavigation {
+    background-color: #660000;
+    color: #AB3900;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px #999999 solid;
+}
+.LeftNavigationActive {
+    background-color: #999999;
+    color: #AB3900;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px #999999 solid;
+}
+.LeftNavigationActiveOrange {
+    background-color: #b33b00;
+    color: #AB3900;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px #999999 solid;
+}
+
+/* CLASSES: FORMS */
+.SearchForm {
+    display: inline;
+}
+.SearchText {
+    font-family: Courier New, Courier, monospace;
+    font-size: 11pt;
+    font-weight: normal;
+}
+.SearchButton {
+    color: #720010;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11pt;
+    font-weight: normal;
+}
+.StandardFormButton {
+    background-color: #003366;
+    color: #FFFFFF;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 12pt;
+}
+LABEL.Checkbox {
+    font-weight: normal;
+}
+
+.altTableRowOdd {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12pt;
+}
+.altTableRowEven {
+    background-color: #efefef;
+    color: #000000;
+    font-size: 12pt;
+}
+
+.formInstruction {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 9pt;
+    font-weight: normal;
+}
+.formHeader {
+    background-color: #8A1C01;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top:4px;
+}
+
+.formSubHeader {
+    background-color: #CC937A;
+    color: #000000;
+    font-size: 10pt;
+    font-weight: bold;
+}
+/* PRINTER-FRIENDLY PAGES */
+.PrinterBody {
+    background-color: #ffffff;
+    color: #000000;
+}
+.PrinterContent {
+    width: 550px;
+    padding: 15px;
+}
+.DonationContent {
+    width: 800px;
+    padding: 10px;
+}
+
+.OfficerFormsContent {
+    width: 600px;
+    padding: 10px;
+}
+.PrinterCopyright {
+    background-color: #ffffff;
+    color: #003366;
+    font-size: 65%;
+}
+A.PrinterHeaderLink:link, A.PrinterHeaderLink:visited {
+    text-decoration: none;
+    color: #003366;
+}
+A.PrinterHeaderLink:active, A.PrinterHeaderLink:hover {
+    text-decoration: underline;
+    color: #003366;
+}
+
+.museumHeading {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+    font-size: 18pt;
+    color: #8c1800;
+    font-weight: bold;
+}
+
+.museumTourText {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    margin-top: 5px;
+    font-size: 12pt;
+    color: #FFFFCC;
+    font-weight: normal;
+    background-color:#8A1D03;
+}
+
+.museumTourBG{
+    background-color:#8A1D03;
+}
+
+A.museumTourText:link, A.museumTourText:visited {
+    color: #FFFFCC;
+}
+
+.HomePageMuseumHeader {
+    color: #003366;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nacError {
+    display: none;
+    font: verdana, arial;
+    font-size: 12pt;
+    color: #ff0000;
+}
+
+
+.nacInput {
+    font: verdana, arial;
+    font-size: 12pt;
+    color: #000000;
+}
+
+.formListHeader {
+    background-color: #336699;
+    color: #FFFFFF;
+    font-size: 12pt;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top:4px;
+}
+
+.CMHighlightNoLink {
+    color: #003366;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+/* FIELDS ADDED FOR FAC 10/7/2004, bmenoza */
+.longField {
+    width: 227px;
+}
+
+.longFieldDisabled {
+    width: 227px;
+    background-color: #cccccc;
+    color: #333333;
+}
+
+.FACContent {
+    background-color: #BDD6EF;
+    color: #000000;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FACContent LABEL {
+    font-size: 75%;
+}
+
+.FACNote {
+    background-color: #BDD6EF;
+    color: #000000;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 70%;
+}
+
+.FACOR {
+    font-weight: bold;
+    font-size: 75%;
+    color: #003366;
+    height: 22px;
+    border-left: 1px #BDD6EF solid;
+    border-right: 1px #BDD6EF solid;
+    padding-left: 5px;
+}
+
+.mileageIndicator {
+    color: #666666;
+    font-size: 90%;
+}
+
+.stateCouncilsHeader, .assembliesHeader {
+    font-weight: bold;
+    font-size: 75%;
+    background-color: #FFFFFF;
+    color: #093A6A;
+    border-bottom: 1px #093A6A solid;
+    padding-bottom: 2px;
+}
+
+#commentsDisclaimer {
+    display: none;
+    font-size: 75%;
+    color: #FF0000;
+}
+
+# The following was added by Shah Khatri as per Alan Miner 2/28/07, 3/2/07 {}
+.BodyTableHeader {
+	background-color:		#660000;
+	color:				#ffffff;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			right;
+	vertical-align:			top;
+	font-weight:			bold;
+	font-size:			11pt;
+}
+.content2 {
+	background-color:		#660000;
+	color:				#ffffff;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			center;
+	vertical-align:			top;
+	font-weight:			bold;
+	font-size:			8pt;
+}
+.content3 {
+	background-color:		#ffffff;
+	color:				#660000;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			left;
+	vertical-align:			top;
+	font-weight:			normal;
+	font-size:			8pt;
+}
+.spnMore {
+	background:			#ffffff;
+	color:				#000066;
+	width:				100%;
+	font-family:			verdana,helvetica,sans-serif;
+	text-align:			right;
+	vertical-align:			bottom;
+	font-weight:			normal;
+	font-size:			8pt;
+}
+.initCap {
+	color:				#660000;
+	font-family:			times new roman,helvetica,sans-serif;
+	font-weight:			bold;
+	font-size:			16pt;
+}
+.img.BlackBorder {
+	border-width: 1px;
+	border-color: #000000;
+	border-style: solid;
+}
+# The above was added by Shah Khatri as per Alan Miner 2/28/07, 3/2/07 {}
+
+# The following was added by Shah Khatri as per Alan Miner 4/4/07 {}
+.imgBooks {
+	border:				1px;
+	border-color:			#000000;
+	border-style:			solid;
+}
+td.tdBookclubHeader {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#6699cc;
+	/*background-image:		url('/eb/en/sk_bookclub/images/skbookclubnextmonth.jpg');*/
+	font-size:			12pt;
+	font-weight:			500;
+	text-align:			left;
+	vertical-align:			bottom;
+}
+td.tdBookclubHeaderBlue {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#6699cc;
+	font-size:			12pt;
+	font-weight:			500;
+	text-align:			left;
+	vertical-align:			bottom;
+}
+# Shah Khatri changed vertical-align of td.tdBookPicture as per Alan Miner on 7/25/07 {}
+td.tdBookPicture {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			10pt;
+	text-align:			center;
+	vertical-align:			top;
+	width:				33%;
+}
+td.tdBookBlurb {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#eeeeaa;
+	font-size:			8pt;
+	text-align:			left;
+	vertical-align:			top;
+	width:				33%;
+}
+td.tdBookClubPicture {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			8pt;
+	text-align:			center;
+	vertical-align:			top;
+	width:				33%;
+}
+td.tdBookClubBlurb {
+	font-family:			verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			10pt;
+	text-align:			left;
+	vertical-align:			top;
+	width:				67%;
+}
+span.spnAuthor {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#003366;
+	background:			#ffffff;
+	font-size:			8pt;
+	font-weight:			800;
+	text-align:			center;
+	vertical-align:			top;
+}		
+# Shah Khatri removed vertical-align from a.aMore as per Alan Miner on 7/25/07 {}
+a.aMore {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#000066;
+	background:			#ffffff;
+	font-size:			7pt;
+	font-weight:			800;
+	text-align:			center;
+}		
+td.tdBookstoreSmallHeader {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#003366;
+	font-size:			10pt;
+	font-weight:			500;
+	text-align:			center;
+	vertical-align:			top;
+}
+td.tdBookstoreHeader {
+	font-family:			trebuchet ms,verdana,arial,helvetica,sans-serif;
+	color:				#ffffff;
+	background:			#003366;
+	font-size:			14pt;
+	font-weight:			500;
+	text-align:			center;
+	vertical-align:			top;
+}
+# The above was added by Shah Khatri as per Alan Miner 4/4/07 {}
